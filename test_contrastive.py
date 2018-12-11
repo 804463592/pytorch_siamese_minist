@@ -11,6 +11,9 @@ torch.set_default_tensor_type('torch.DoubleTensor')
 
 ##修改了注释
 
+
+##修改了注释2
+
 def run_tests():
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument('--seed', type=int, default=123)
