@@ -9,6 +9,7 @@ from torch.autograd import Variable, gradcheck
 
 torch.set_default_tensor_type('torch.DoubleTensor')
 
+##修改了注释
 
 def run_tests():
     parser = argparse.ArgumentParser(add_help=False)
